@@ -1,0 +1,52 @@
+<html>
+    <head>
+        <title>pizza</title>
+    </head>
+    <body>
+        <header >
+            <h1>Best Pizza Ever</h1>
+            <h3>come and get some......</h3>
+        </header>
+
+        <main>
+            <section id = "contact-form">
+                <h2>Place Order</h2>
+                <form method ="GET" action ="place-order.php">
+                    <h4>Delivery</h4>
+                    <input name="deliveryMethod" type="radio" value="delivery"/>Delivery<br />
+                    <input name="deliveryMethod" type="radio" value="pickup"/>Pickup<br /><br /><br /><br />
+
+                    <h4>Address</h4>
+                    <input name="address1" placeholder="Address Line 1" class ="lg-input"/><br />
+                    <input name="address2" placeholder="Address Line 2" class ="lg-input"/><br />
+                    <input name="city" placeholder="City" class ="sm-input"  />
+
+                    <input name="state" placeholder="State" class ="sm-input"/><br />
+                    <input name="zip" placeholder="Zip Code" class ="sm-input"/><br /><br /><br /><br />
+                    <h4>Size<h4 />
+                    <select name="size">
+                        <option value="12">12" - $13.99</option>
+                        <option value="16">16" - $16.99</option>
+                        <option value="18">18" - $19.99</option>
+                        <option value="72">72" - $149.99</option>
+                    </select><br /><br /><br /><br />
+                    <h4>Incredients<h4 />
+                    <input name="incredient" type="checkbox" value ="Pepperoni" />Pepperoni<br />
+                    <input name="incredient" type="checkbox" value ="Salami" />Salami<br />
+                    <input name="incredient" type="checkbox" value ="Bacon" />Bacon<br />
+                    <input name="incredient" type="checkbox" value ="Sausage" />Italian Sausage<br />
+                    <input name="incredient" type="checkbox" value ="Onions" />Onions<br />
+                    <input name="incredient" type="checkbox" value = "Peppers"/>Green Peppers<br />
+                    <br /><br />
+                    <button type "submit">Place Order</button >
+                </form>
+            </section>
+            <footer>
+                <br /><br /><br /><br />
+                <center>&copy; 2018<br />
+                    <a href ="#">Terms of Service</a>
+                <center>
+            </footer>
+            </main>
+        </body>
+    </html>
